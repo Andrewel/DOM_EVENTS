@@ -1,0 +1,120 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 2vw;
+}
+hr {
+  margin-top: 0.03vw;
+  margin-bottom: 0.03vw;
+  color: black;
+}
+.tools {
+  border: 0.03vw solid grey;
+  margin-bottom: 2vw;
+}
+.flexContainerTools {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.flexContainerTools > .fas {
+  font-size: 1.5vw;
+  margin: 1vw;
+}
+.line {
+  position: relative;
+  top: 20%;
+  border-bottom: 0.15vw solid black;
+  width: inherit;
+}
+.colors {
+  border: 0.03vw solid grey;
+}
+.flexContainerColors {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.flexContainerColors > .fas {
+  font-size: 1.5vw;
+  margin: 1vw;
+  font-style: red;
+}
+.sectionTools {
+  position: absolute;
+  width: 17vw;
+  left: 0;
+  margin: 2vw;
+}
+.tools .fas:hover {
+  cursor: pointer;
+  /* cursor: url("../assets/icons/i1.png"), auto;*/
+  /*cursor: url("https://cdn1.imggmi.com/uploads/2019/4/28/6f7fd10cbefa890abfc0472ab80771ca-full.png"),
+    auto;*/
+  color: red;
+}
+.fas > span {
+  color: black;
+}
+.sectionCanvas {
+  position: absolute;
+  left: 30vw;
+  margin: 2vw;
+}
+.flexCanvasContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+canvas {
+  height: 15vw;
+  width: 15vw;
+}
+#Canvas9 {
+  position: absolute;
+  top: 32vw;
+  left: 43vw;
+}
+#Canvas8 {
+  position: absolute;
+  top: 32vw;
+  left: 27vw;
+}
+#Canvas7 {
+  position: absolute;
+  top: 32vw;
+  left: 11vw;
+  /* clip-path: circle(50% at 50% 50%);*/
+}
+#Canvas6 {
+  position: absolute;
+  top: 16vw;
+  left: 43vw;
+}
+#Canvas5 {
+  position: absolute;
+  top: 16vw;
+  left: 27vw;
+}
+#Canvas4 {
+  position: absolute;
+  top: 16vw;
+  left: 11vw;
+}
+#Canvas3 {
+  position: absolute;
+  top: 0;
+  left: 43vw;
+}
+#Canvas2 {
+  position: absolute;
+  top: 0;
+  left: 27vw;
+}
+#Canvas1 {
+  position: absolute;
+  top: 0;
+  left: 11vw;
+}
